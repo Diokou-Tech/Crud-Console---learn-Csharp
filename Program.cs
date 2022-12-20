@@ -32,7 +32,7 @@ namespace HelloWorld
                         case 3: serchByNom(); break;
                         case 4: deletePersonByNom(); break;
                         case 5: editPerson(); break;
-                        case 6: exportCSV(); break;
+                        case 6: exportCSV(); break; 
                         case 0: quit(); break;
                     }
                 }
@@ -43,7 +43,7 @@ namespace HelloWorld
             } while (!finish);
         }
 
-        //cette methode permet de raccourcir l'ancience methode
+        //cette methode permet de raccourcir l'ancience methode System.Console
         public static void show(string msg)
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
