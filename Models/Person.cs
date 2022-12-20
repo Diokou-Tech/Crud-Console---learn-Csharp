@@ -1,6 +1,6 @@
 ﻿namespace HelloWorld.Models
 { 
-class Person
+public class Person
 {
     public int taille { get; set; }
     public int poids { get; set; }

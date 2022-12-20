@@ -1,14 +1,17 @@
 [
-{
+  {
     "nom": "cheikh",
-    "prenom": "Diokou"
-},
-{
+    "taile": 180,
+    "poids": 90
+  },
+  {
     "nom": "Fall",
-    "prenom": "Yaram"
-},
-{
+    "taile": 190,
+    "poids": 97
+  },
+  {
     "nom": "Zola",
-    "prenom": "Tech"
-}
+    "taile": 184,
+    "poids": 70
+  }
 ]
