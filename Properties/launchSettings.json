@@ -2,7 +2,9 @@
   "profiles": {
     "HelloWorld": {
       "commandName": "Project",
-      "commandLineArgs": "10"
+      "commandLineArgs": "10",
+      "sqlDebugging": false,
+      "nativeDebugging": true
     }
   }
 }

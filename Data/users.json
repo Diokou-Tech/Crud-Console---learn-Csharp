@@ -1,17 +1,7 @@
 [
-  {
-    "nom": "cheikh",
-    "taile": 180,
-    "poids": 90
-  },
-  {
-    "nom": "Fall",
-    "taile": 190,
-    "poids": 97
-  },
-  {
-    "nom": "Zola",
-    "taile": 184,
-    "poids": 70
-  }
+  { "nom": "cheikh", "taille": 180,"poids": 90},
+  {  "nom": "Fall", "taille": 190,"poids": 97},
+  { "nom": "Zola", "taille": 184,"poids": 70},
+  { "nom": "absa", "taille": 184,"poids": 70},
+  { "nom": "Fodé", "taille": 184,"poids": 70}
 ]

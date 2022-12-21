@@ -31,5 +31,56 @@ namespace HelloWorld.Helpers
             string ligne = Console.ReadLine();
             Console.WriteLine((Jours)UInt32.Parse(ligne));
         }
+        public static void tester()
+        {
+            //StringBuilder adresse = new StringBuilder();
+            //show("Votre continent");
+            //string continent = Console.ReadLine();
+            //adresse.Append(continent);
+            //show("Votre pays");
+            //string pays = Console.ReadLine();
+            //adresse.Append(pays);
+            //show(adresse.ToString());
+
+            //var etudiant = new Etudiant { date_naissance = DateTime.Now, matricule="20150436",nom = "Cheikhou DIOKOU", niveau="licence 2 MIO", poids= 75, taille = 185};
+            //show(etudiant.ToStringFormat());
+            //Console.ReadLine();
+
+            //show("entre votre email");
+            //string email = Console.ReadLine();
+            //show("entre votre mot de passe");
+            //string password = Console.ReadLine();
+            //show(email);
+            //show(Helper.logger(ref email, password));
+            //show(email);
+            //show(password);
+            //Helper.testEnumeration();
+            //StringCollection joursSemeaine = new StringCollection(); 
+            //for(int i = 0; i < 6; i++)
+            //{
+            //    show($"Ajouter une nouvelle chaine {i}");
+            //    joursSemeaine.Add( Console.ReadLine() );
+            //}
+            //foreach(var item in joursSemeaine)
+            //{
+            //    show(item);
+            //}
+            //string sexe = clavier("Votre sexe svp !");
+            //string civilite = sexe switch
+            //{
+            //    "M" => "Monsieur",
+            //    "F" => "Madame",
+            //    _ => "Madame / Monsieur"
+            //};
+            //show(civilite);
+
+            //show(ligne.ToString());
+            //int b = int.MaxValue;
+            //int c = int.MinValue;
+
+            //show($"max value : {b} and min value : {c}");
+            //Fin du programme
+            ConsoleKeyInfo ligne = Console.ReadKey();
+        }
     }
 }
