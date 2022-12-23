@@ -73,12 +73,13 @@ namespace HelloWorld.Helpers
             //};
             //show(civilite);
 
-            //show(ligne.ToString());
-            //int b = int.MaxValue;
-            //int c = int.MinValue;
+            //Console.WriteLine(ligne.ToString());
+            int b = int.MaxValue;
+            int c = int.MinValue;
 
-            //show($"max value : {b} and min value : {c}");
+            Console.WriteLine($"max value : {b} and min value : {c}");
             //Fin du programme
+            Console.Read();
         }
     }
 }

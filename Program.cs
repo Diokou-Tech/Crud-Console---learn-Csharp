@@ -13,8 +13,8 @@ namespace HelloWorld
 
         public static bool finish = false;
         public static List<Person> Liste = new List<Person>();
-        public static ArrayList ListeTotale = new ArrayList();
-        static void Main(string[] args)
+        public static ArrayList ListeTotale;
+        static void Main()
         {
             Console.ForegroundColor= ConsoleColor.Green;
             Console.WriteLine("-------------------------------------------");
