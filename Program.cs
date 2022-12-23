@@ -16,8 +16,11 @@ namespace HelloWorld
         public static ArrayList ListeTotale = new ArrayList();
         static void Main(string[] args)
         {
-            //init();
-            show($"Bienvenue sur l'appli C2  [Crud-Console]  \n Langue: {Helper.langue} \n Monnaie: {Helper.devise} \n Date : {Helper.dateCurrent.ToShortDateString()} \n Heure : {Helper.dateCurrent.ToShortTimeString()} \n");
+            Console.ForegroundColor= ConsoleColor.Green;
+            Console.WriteLine("-------------------------------------------");
+            show($"\n Bienvenue sur l'appli C2  [Crud-Console]  \n Langue: {Helper.langue} \n Monnaie: {Helper.devise} \n Date : {Helper.dateCurrent.ToShortDateString()} \n Heure : {Helper.dateCurrent.ToShortTimeString()} \n");
+            Console.ForegroundColor= ConsoleColor.Green;
+            Console.WriteLine("-------------------------------------------");
             //test();
             do
             {
@@ -46,7 +49,7 @@ namespace HelloWorld
         //cette methode permet de raccourcir l'ancience methode System.Console
         public static void show(string msg)
         {
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine(msg);
         }
         static string clavier(string msg)
@@ -183,6 +186,7 @@ namespace HelloWorld
         }
         static bool quit()
         {
+            show($"\n Au revoir ! \n");
             return finish = true;
         }
         public static void exportCSV()
@@ -239,13 +243,6 @@ namespace HelloWorld
                 }
             }
         }
-        //static void init()
-        //{
-        //    Person p1 = new Person { nom = "cheikh", poids = 80, taille = 190 };
-        //    Person p2 = new Person { nom = "zola", poids = 70, taille = 170 };
-        //    Liste.Add(p1);
-        //    Liste.Add(p2);
-        //}
         static void test()
         {
             Helper.tester();

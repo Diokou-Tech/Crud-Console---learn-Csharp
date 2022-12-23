@@ -13,6 +13,8 @@ namespace HelloWorld.Models
         public DateTime date_naissance { get; set; }
         public string niveau { get; set; }
         public List<string> diplome_obtenus{ get; set; }
+
+
         //Methodes
         public  string ToStringFormat()
         {

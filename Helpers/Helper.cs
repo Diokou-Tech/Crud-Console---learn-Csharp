@@ -17,7 +17,6 @@ namespace HelloWorld.Helpers
         public static string logger(ref string email, string password)
         {
             email = "zola@gmail.com";
-            password = "passer1234";
             return $"Identifiants : {email} {password}";
         }
         public static void testEnumeration()
@@ -80,7 +79,6 @@ namespace HelloWorld.Helpers
 
             //show($"max value : {b} and min value : {c}");
             //Fin du programme
-            ConsoleKeyInfo ligne = Console.ReadKey();
         }
     }
 }
